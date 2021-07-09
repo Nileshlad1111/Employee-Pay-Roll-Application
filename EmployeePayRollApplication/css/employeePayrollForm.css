@@ -2,12 +2,10 @@ body{
     margin: 0;
     height: 100%;
 }
-
 .header{
     padding: 15px 0;
     background-color: #ffffff;
 }
-
 .header-content{
     display: flex;
     flex-direction: row;
@@ -15,7 +13,6 @@ body{
     align-items: center;
     border: 0px solid green;
 }
-
 .logo-content{
     display: flex;
     flex-direction: row;
@@ -23,11 +20,9 @@ body{
     border: 0px solid green;
     width: 80%;
 }
-
 .logo-content-img{
     border: solid 0px #42515f;
 }
-
 .emp-text{
     font: normal normal bold 20px/25px Montserrat;
     font-family: "Montserrat", sam-serif;
@@ -35,15 +30,12 @@ body{
     color: #82a70c;
     text-transform: capitalize;
 }
-
 .emp-payroll{
     color: #42515f;
 }
-
 *{
     box-sizing: border-box;
 }
-
 .form-content{
     min-height: calc(100% -80px);
     background-color: #f7f7f7;
@@ -52,7 +44,6 @@ body{
     align-items: center;
     border: 0px solid green;
 }
-
 .form{
     width: 65%;
     padding: 44px 60px;
@@ -62,7 +53,6 @@ body{
     border-radius: 8px;
     opacity: 1;
 }
-
 .form-head{
     font: normal normal bold 24px/37px Roboto;
     letter-spacing: 0px;
@@ -71,7 +61,6 @@ body{
     opacity: 1;
     padding-bottom: 20px;
 }
-
 .row-content{
     display: flex;
     flex-direction: row;
@@ -79,23 +68,19 @@ body{
     align-items: center;
     border: 0px solid green;
 }
-
 .label{
     min-width: 140px;
 }
-
 label{
     padding: 12px 12px 12px 0;
     display: inline-block;
 }
-
 .text{
     font-size: 16px;
     color: #42515f;
     opacity: 1;
     font-family: Roboto;
 }
-
 .input{
     width: 100%;
     padding: 12px;
@@ -103,24 +88,20 @@ label{
     border-radius: 4px;
     resize: vertical;
 }
-
 .profile-radio-content{
     display: flex;
     flex-direction: row;
 }
-
 .profile-radio-content > label{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
 .profile{
     width: 40px;
     border-radius: 50%;
     margin-left: 12px;
 }
-
 select{
     padding: 10px;
     border: 1px solid #ccc;
@@ -131,14 +112,12 @@ select{
     color: #42515f;
     background-color: transparent;
 } 
-
 .buttonParent{
     display: flex;
     margin-bottom: 10px;
     justify-content: space-between;
     margin-top: 20px;
 }
-
 .button{
     font-size: 20px;
     font-family: Roboto;
@@ -154,7 +133,6 @@ select{
     cursor: pointer;
     border-radius: 4px;
 }
-
 .submitButton{
     border: none;
     background-color: #f5f5f5;
@@ -162,10 +140,16 @@ select{
     border: 1px solid #707070;
     margin-left: 5px;
 }
-
 .cancelButton{
     text-decoration: none;
     text-align: center;
+}
+
+error-output{
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
 }
 
 @media only screen and (max-width: 960px){
@@ -180,7 +164,6 @@ select{
         flex-flow: wrap;
     }
 }
-
 @media only screen and (max-width: 600px){
     .form{
         margin-top: 10px;
