@@ -1,4 +1,4 @@
-  
+
 window.addEventListener('DOMContentLoaded', (event) => {
     const name = document.querySelector("#name");
     const nameError = document.querySelector(".name-error");
@@ -103,3 +103,4 @@ const setValue = (id,value) => {
     const element = document.querySelector(id);
     element.value = value;
 } 
+
